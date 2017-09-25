@@ -14,6 +14,12 @@ a {
   color: white;
 }
 
+h2,
+h4 {
+  margin: 0;
+  padding: 10px 0;
+}
+
 /* Structure Styles */
 
 .container {
@@ -22,12 +28,19 @@ a {
   align-items: center;
 }
 
+.main-content {
+  width: 1200px;
+  padding-top: 70px;
+  margin: 0 auto;
+}
+
 /* Header */
 
 header {
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
   position: fixed;
   z-index: 1;
 }
@@ -46,15 +59,24 @@ header nav span {
   padding: 0 10px;
 }
 
-/* Main Content */
+/* Mission Section */
+
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  padding-top: 70px;
+}
+
+.mission-txt {
+  width: 100%;
+  background-color: black;
+}
+
+/* Month Section */
 
 
 
-/* First Sub-section */
-
-
-
-/* Second Sub-section */
+/* Locations Section */
 
 
 
