@@ -121,3 +121,9 @@ header nav span {
 }
 
 /* Footer */
+
+footer {
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 20px;
+}
