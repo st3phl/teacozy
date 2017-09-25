@@ -26,6 +26,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /* Header */
@@ -78,8 +79,11 @@ header nav span {
 
 #month {
   width: 1000px;
-  margin: 0 auto;
-  flex-wrap: wrap;
+  margin: 70px auto;
+}
+
+#month .item {
+  margin: 15px 15px 0px 15px;
 }
 
 #month .item img {
