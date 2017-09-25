@@ -114,4 +114,10 @@ header nav span {
   flex-direction: column;
 }
 
+/* Contact Section */
+
+#contact {
+  height: 200px;
+}
+
 /* Footer */
