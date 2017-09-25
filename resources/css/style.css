@@ -5,7 +5,6 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
   margin: 0;
 }
@@ -60,11 +59,16 @@ header nav span {
   width: 1200px;
   padding-top: 70px;
   margin: 0 auto;
+  opacity: 0.9;
 }
 
 .section-title {
   width: 100%;
   background-color: black;
+}
+
+.item {
+  width: 300px;
 }
 
 /* Mission Section */
@@ -87,12 +91,20 @@ header nav span {
 }
 
 #month .item img {
-  width: 300px;
   height: 200px;
 }
 
 /* Locations Section */
 
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
 
+#locations .item {
+  background-color: black;
+  opacity: 1;
+}
 
 /* Footer */
