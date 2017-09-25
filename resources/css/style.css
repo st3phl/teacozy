@@ -28,12 +28,6 @@ h4 {
   align-items: center;
 }
 
-.main-content {
-  width: 1200px;
-  padding-top: 70px;
-  margin: 0 auto;
-}
-
 /* Header */
 
 header {
@@ -59,6 +53,19 @@ header nav span {
   padding: 0 10px;
 }
 
+/* Main Content */
+
+.main-content {
+  width: 1200px;
+  padding-top: 70px;
+  margin: 0 auto;
+}
+
+.section-title {
+  width: 100%;
+  background-color: black;
+}
+
 /* Mission Section */
 
 #mission {
@@ -67,14 +74,18 @@ header nav span {
   padding-top: 70px;
 }
 
-.mission-txt {
-  width: 100%;
-  background-color: black;
+/* Tea of the Month Section */
+
+#month {
+  width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
-/* Month Section */
-
-
+#month .item img {
+  width: 300px;
+  height: 200px;
+}
 
 /* Locations Section */
 
